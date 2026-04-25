@@ -12,7 +12,7 @@ def generate_qr_code_image(pay_address, pay_amount, pay_currency):
     # لـ BTC، قد يكون bitcoin:{address}?amount={amount}
     # هنا نفترض أننا نستخدم عنوان الدفع والمبلغ كنص عادي
     qr_data = f"{pay_address}"
-
+UQARIQeRt55gDYdCp96da0wV9_sFnpg1m2rEHLXw9HTdu9LC
     qr = qrcode.QRCode(
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_L,
